@@ -119,7 +119,8 @@ section:not(.edu) .dcard h4{color:var(--royal)}section:not(.edu) .dcard p{color:
 .ack{display:flex;gap:16px;align-items:flex-start;border-top:1px solid rgba(255,255,255,.1);margin-top:32px;padding-top:22px}
 .ack .flags{display:flex;gap:8px;flex-shrink:0}.ack svg{width:42px;height:28px;border-radius:3px}.ack p{font-family:var(--body);font-size:12.5px;color:#9aa4c4}
 .fbar{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;border-top:1px solid rgba(255,255,255,.1);margin-top:22px;padding-top:16px;font-family:var(--body);font-size:11.5px;color:#8089ad}
-.legal{margin-top:12px;font-family:var(--body);font-size:11.5px;color:#8089ad}.legal a{color:#8089ad}.legal a:hover{color:#fff}
+.legal{margin-top:12px;font-family:var(--body);font-size:11.5px;color:#8089ad}.legal a{display:inline;color:#8089ad}.legal a:hover{color:#fff}
+.fbar a{display:inline;color:#9aa4c4;text-decoration:underline}.fbar a:hover{color:#fff}
 .split-in,.teams-teaser .tgrid{align-items:start}
 @media(max-width:960px){.ngrid,.dgrid,.tgrid,.split-in,.pgrid,.pgrid.sm,.ft-grid{grid-template-columns:1fr 1fr}.sgrid{grid-template-columns:1fr 1fr}
  .hd{-webkit-backdrop-filter:none;backdrop-filter:none}
