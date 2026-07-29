@@ -198,3 +198,41 @@ h1,h2,h3,h4{text-transform:uppercase;letter-spacing:.01em}
  .burger{display:flex;z-index:61}
  .brand span{color:#fff}.brand small{color:#b9c4ec}
 }
+
+/* ================= mobile polish pass ================= */
+/* burger: white bars for contrast on the navy header */
+.burger span{background:#fff}
+/* when the drawer is open, hide burger + search (X inside handles closing) */
+#mnav.open ~ .burger,#mnav.open ~ .search-btn{display:none}
+/* drawer close (X) — hidden on desktop, shown inside the drawer on mobile */
+.nav-close{display:none}
+/* keep footer credit / policy links + sponsor label from breaking mid-phrase */
+.spon-lab a,.legal a{white-space:nowrap}
+/* back-to-top button */
+#b2t{position:fixed;right:16px;bottom:16px;width:46px;height:46px;border-radius:50%;background:var(--red);color:#fff;border:0;display:grid;place-items:center;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.28);opacity:0;transform:translateY(10px);pointer-events:none;transition:.25s;z-index:120}
+#b2t.on{opacity:1;transform:none;pointer-events:auto}
+#b2t:hover{background:var(--red2)}
+
+@media(max-width:960px){
+ section{padding:44px 0}                         /* tighter section rhythm on mobile */
+ .hero,.page-hero{padding:0}                      /* kill doubled section+inner padding */
+ .hero-in{padding:30px 22px 38px}                 /* removes the big top gap */
+ .page-hero .wrap{padding:28px 22px 34px}
+ .sec-head{margin-bottom:22px}
+ /* drawer: close button + Join pushed down */
+ .nav-close{display:flex;position:absolute;top:14px;right:16px;background:none;border:0;color:var(--royal);cursor:pointer;padding:6px}
+ .nav .join{margin-top:24px}
+ /* fees / steps: stack so the table fills the card width */
+ .step{flex-direction:column;gap:12px}
+ .step .snum{margin-bottom:2px}
+ .tbl{width:100%}
+ /* footer acknowledgement: text under the flags */
+ .ack{flex-direction:column;gap:12px}
+ /* sponsor carousel: swipeable (native horizontal scroll, no auto-run) */
+ .spon-marq{overflow:hidden}
+ .marq-track{animation:none;width:auto;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity;padding-bottom:4px}
+ .marq-list{flex:0 0 auto;padding:0 12px}
+ .marq-list[aria-hidden]{display:none}
+ .marq-list .dup{display:none}
+ .marq-list li{scroll-snap-align:center}
+}

@@ -54,3 +54,22 @@
   if(open_ && e.key==='Enter'){var f=res.querySelector('a');if(f)window.location.href=f.getAttribute('href');}
  });
 })();
+/* mobile drawer close (X), close-on-tap, and back-to-top */
+(function(){
+ var nav=document.getElementById('mnav');
+ if(nav){
+   var x=document.createElement('button');
+   x.type='button'; x.className='nav-close'; x.setAttribute('aria-label','Close menu');
+   x.innerHTML='<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>';
+   nav.insertBefore(x, nav.firstChild);
+   x.addEventListener('click',function(){nav.classList.remove('open');});
+   nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');});});
+ }
+ var b=document.createElement('button');
+ b.id='b2t'; b.type='button'; b.setAttribute('aria-label','Back to top'); b.title='Back to top';
+ b.innerHTML='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>';
+ document.body.appendChild(b);
+ function t(){b.classList.toggle('on',(window.pageYOffset||document.documentElement.scrollTop)>420);}
+ window.addEventListener('scroll',t,{passive:true}); t();
+ b.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+})();
