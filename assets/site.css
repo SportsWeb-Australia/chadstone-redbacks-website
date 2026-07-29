@@ -22,11 +22,11 @@ section{padding:66px 0}.bg-soft{background:var(--soft)}
 /* header */
 .hd{position:sticky;top:0;z-index:50;background:var(--navbg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .hd-in{display:flex;align-items:center;gap:18px;height:74px}
-.brand{display:flex;align-items:center;gap:11px;margin-right:auto}.brand img{height:46px;width:auto}
+.brand{display:flex;align-items:center;gap:13px;margin-right:auto}.brand img{height:58px;width:auto}
 .brand span{font-family:var(--display);font-size:19px;color:var(--navfg);line-height:.95;text-transform:uppercase;letter-spacing:.01em}
 .brand small{display:block;margin-top:5px;text-align:right;font-family:var(--body);font-weight:600;font-size:10px;letter-spacing:.08em;color:var(--muted);text-transform:none}
 .nav{display:flex;align-items:center;gap:18px}
-.nav a{font-family:var(--body);font-weight:600;font-size:14px;color:var(--navfg)}.nav a.on{color:var(--red)}
+.nav a{font-family:var(--body);font-weight:600;font-size:14px;color:var(--navfg)}.nav a.on{color:var(--red);font-weight:700}
 .nav a.join{background:var(--red);color:#fff;padding:10px 17px;border-radius:var(--rad);font-weight:700}.nav a.join:hover{background:var(--red2)}
 .burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}.burger span{width:24px;height:2px;background:var(--royal);border-radius:2px}
 /* page hero */
@@ -37,7 +37,7 @@ section{padding:66px 0}.bg-soft{background:var(--soft)}
 .ph-crest{position:absolute;right:-30px;top:50%;transform:translateY(-50%);width:300px;opacity:.08;z-index:1}
 /* hero (home) */
 .hero{position:relative;overflow:hidden;background:var(--herobg);color:var(--herofg)}
-.hero-in{position:relative;z-index:2;padding:84px 22px 92px;max-width:900px}
+.hero-in{position:relative;z-index:2;padding:60px 22px 66px}
 .hero .eyebrow{color:#f4b6b4;display:block;margin-bottom:14px}
 .hero h1{color:#fff;font-size:clamp(50px,9.5vw,112px)}.hero h1 em{font-style:normal;color:var(--red);display:block}
 .hero .sub{font-family:var(--body);font-weight:700;text-transform:uppercase;letter-spacing:.05em;font-size:clamp(14px,2.3vw,19px);color:#cdd6f4;margin-top:16px}
