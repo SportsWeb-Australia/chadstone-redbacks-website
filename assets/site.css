@@ -12,6 +12,8 @@ h1,h2,h3,h4{font-family:var(--display),Impact,sans-serif;line-height:1.05;color:
 .btn-ghost{background:transparent;border:2px solid var(--royal);color:var(--royal);padding:11px 20px}
 .btn-line{background:var(--royal);color:#fff}
 .btn-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+/* breathing room: a button/link that directly follows text needs a gap above it */
+p + .btn,.prose p + .btn,.callout p + .btn,.ticks + .btn{margin-top:18px}
 section{padding:66px 0}.bg-soft{background:var(--soft)}
 .sec-head{max-width:720px;margin-bottom:32px}.sec-head.center{margin:0 auto 36px;text-align:center}
 .sec-head h2,h2{font-size:clamp(28px,4.8vw,46px)}.lead{font-family:var(--body);color:var(--muted);font-size:16.5px;margin-top:10px}
@@ -52,8 +54,8 @@ section{padding:66px 0}.bg-soft{background:var(--soft)}
 .nb h3{font-size:21px;color:var(--ink);margin:7px 0 8px}.nb p{font-family:var(--body);font-size:14.5px;color:var(--muted);margin-bottom:12px}
 .more{font-family:var(--body);font-weight:700;font-size:13.5px;color:var(--royal)}
 /* education */
-.edu{background:var(--royal);color:#fff}.edu .eyebrow{color:#f4b6b4}.edu h2{color:#fff}.edu h2 em{font-style:normal;color:#fff;border-bottom:5px solid var(--red)}
-.edu .edu-head{max-width:760px;margin-bottom:30px}.edu p{font-family:var(--body);color:#dde3f5;font-size:16.5px;margin-top:12px}
+.edu{background:var(--royal);color:#fff}.edu .eyebrow{color:#f4b6b4}.edu h2{color:#fff;line-height:1.16}.edu h2 em{font-style:normal;color:#fff;border-bottom:5px solid var(--red)}
+.edu .edu-head{max-width:760px;margin-bottom:30px}.edu p{font-family:var(--body);color:#dde3f5;font-size:16.5px;margin-top:20px}
 .dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .dcard{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--rad);padding:24px 22px}
 .dcard .ic{font-size:28px}.dcard h4{color:#fff;font-size:20px;margin:10px 0 7px}.dcard p{font-family:var(--body);color:#cdd6f4;font-size:14px}
