@@ -1,0 +1,26 @@
+# Chadstone Redbacks Lacrosse Club
+
+> A welcoming, family-friendly lacrosse club in Malvern East, Melbourne, Australia, established 1960. We run junior, women's and men's programs and describe lacrosse as "the fastest game on two feet". New players — especially juniors — are always welcome, with no experience needed.
+
+## Key facts
+- Location: Percy Treyvaud Reserve, 32A Chadstone Rd, Malvern East VIC 3145, Australia.
+- Founded: 1960 (originally "the Cardinals").
+- Programs: Junior (boys & girls, U10–U18), Women's (plays as "Chadfield", combined with Caulfield), Men's (social to State League).
+- Training: Tuesday & Thursday, 5–8pm at Percy Treyvaud Reserve.
+- Junior "come & try": free, Thursdays 5:30–6:30pm. Contact junior coordinator James Conheady on 0407 705 367.
+- 2026/27 fees (club fee): Senior Men $400, Senior Women $290, U18 Boys $260, U17 Girls $220, U16 Boys $205, U14 $190, U12 $165, U10 $60. Plus a free Lacrosse Victoria registration.
+- Registration platform: GameDay. Governing body: Lacrosse Victoria.
+- Contact: info@chadstonelacrosse.com.au · recruitment@chadstonelacrosse.com.au · treasurer 0439 444 535.
+
+## Pages
+- [Home](https://chadstone-redbacks-website.vercel.app/index.html): club overview and latest news.
+- [About](https://chadstone-redbacks-website.vercel.app/about.html): who we are, values, history.
+- [What is lacrosse](https://chadstone-redbacks-website.vercel.app/what-is-lacrosse.html): the game explained.
+- [Teams](https://chadstone-redbacks-website.vercel.app/teams.html): men's, women's and junior programs.
+- [Membership & fees](https://chadstone-redbacks-website.vercel.app/membership.html): 2026/27 fees and how to register.
+- [Play at Chaddy](https://chadstone-redbacks-website.vercel.app/play-at-chaddy.html): how to start playing.
+- [Match Centre](https://chadstone-redbacks-website.vercel.app/match-centre.html): fixtures, ladders, results.
+- [News](https://chadstone-redbacks-website.vercel.app/news.html): club news and events.
+- [History & Honours](https://chadstone-redbacks-website.vercel.app/history.html): founded 1960, premierships, Australian representatives.
+- [Sponsors](https://chadstone-redbacks-website.vercel.app/sponsors.html): the businesses that support the club.
+- [Contact](https://chadstone-redbacks-website.vercel.app/contact.html): get in touch and find us.
