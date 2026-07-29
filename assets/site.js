@@ -24,6 +24,7 @@
   {t:'Membership & Fees',u:'membership.html',d:'2026/27 fees and how to register.',k:'membership fees cost price register join 2026 2027 bank eft social membership gameday how to join sign up'},
   {t:'Play at Chaddy',u:'play-at-chaddy.html',d:'Start playing — juniors, adults, schools and international players.',k:'play at chaddy start playing come and try juniors adults international players school clinic quick stick'},
   {t:'History & Honours',u:'history.html',d:'Founded 1960 — premierships and Australian representatives.',k:'history honours founded 1960 cardinals premierships green jacket australian representatives gordon purdie life members'},
+  {t:'Sponsors',u:'sponsors.html',d:'The businesses that support our club.',k:'sponsors sponsor partners support us slater levin better health network headspace brandy creek daizies sport rec victoria'},
   {t:'Contact',u:'contact.html',d:'Get in touch — email, phone, and where to find us.',k:'contact email phone address percy treyvaud reserve map coordinators find us treasurer'}
  ];
  var ov=document.createElement('div'); ov.className='search-ov';
