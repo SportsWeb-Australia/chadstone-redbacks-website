@@ -191,7 +191,7 @@ h1,h2,h3,h4{text-transform:uppercase;letter-spacing:.01em}
 @media(max-width:620px){.spon-cards{grid-template-columns:1fr}}
 
 /* 9-item nav: switch to the drawer a bit earlier (small laptops) so it never crowds */
-@media(min-width:961px) and (max-width:1120px){
+@media(min-width:961px) and (max-width:1220px){
  .hd{-webkit-backdrop-filter:none;backdrop-filter:none}
  .nav{position:fixed;inset:0 0 0 auto;width:min(82vw,330px);height:100dvh;background:#fff;flex-direction:column;align-items:flex-start;gap:6px;padding:78px 24px;overflow-y:auto;transform:translateX(100%);transition:.3s;box-shadow:-20px 0 60px rgba(0,0,0,.18);z-index:60}
  .nav.open{transform:none}.nav a{color:var(--royal);font-size:15px}
@@ -258,3 +258,6 @@ h1,h2,h3,h4{text-transform:uppercase;letter-spacing:.01em}
 .zf-form{text-align:center;margin-top:6px}
 .zf-form iframe{max-width:640px;border-radius:var(--rad);background:#fff}
 @media(max-width:620px){.tcard-ph{aspect-ratio:16/9}.figph img{aspect-ratio:4/3}}
+
+/* keep the wordmark on one line (desktop/tablet); small line right-justified under it */
+@media(min-width:600px){.brand span{white-space:nowrap}}
