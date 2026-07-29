@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://chadstone-redbacks-website.vercel.app/sitemap.xml
