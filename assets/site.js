@@ -25,6 +25,7 @@
   {t:'Play at Chaddy',u:'play-at-chaddy.html',d:'Start playing — juniors, adults, schools and international players.',k:'play at chaddy start playing come and try juniors adults international players school clinic quick stick'},
   {t:'History & Honours',u:'history.html',d:'Founded 1960 — premierships and Australian representatives.',k:'history honours founded 1960 cardinals premierships green jacket australian representatives gordon purdie life members'},
   {t:'Sponsors',u:'sponsors.html',d:'The businesses that support our club.',k:'sponsors sponsor partners support us slater levin better health network headspace brandy creek sport rec victoria'},
+  {t:'Spider Bites',u:'spider-bites.html',d:'Our club newsletter — read past issues.',k:'spider bites newsletter news updates issues archive email signup subscribe'},
   {t:'Contact',u:'contact.html',d:'Get in touch — email, phone, and where to find us.',k:'contact email phone address percy treyvaud reserve map coordinators find us treasurer'}
  ];
  var ov=document.createElement('div'); ov.className='search-ov';

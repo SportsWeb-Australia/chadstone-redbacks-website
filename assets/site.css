@@ -261,3 +261,26 @@ h1,h2,h3,h4{text-transform:uppercase;letter-spacing:.01em}
 
 /* keep the wordmark on one line (desktop/tablet); small line right-justified under it */
 @media(min-width:600px){.brand span{white-space:nowrap}}
+
+/* News dropdown (Latest News / Spider Bites) */
+.nav-dd{position:relative;display:flex;align-items:center}
+.nav-dd>a::after{content:"";display:inline-block;width:5px;height:5px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg);margin-left:6px;opacity:.7}
+.nav-menu{position:absolute;top:calc(100% + 8px);left:0;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 14px 34px rgba(20,26,60,.18);padding:6px;min-width:180px;display:none;flex-direction:column;z-index:70}
+.nav-dd:hover .nav-menu,.nav-dd:focus-within .nav-menu{display:flex}
+.nav-menu a{color:var(--ink)!important;padding:9px 12px;border-radius:6px;font-size:13.5px;white-space:nowrap}
+.nav-menu a:hover{background:var(--soft);color:var(--royal)!important}
+@media(max-width:1220px){
+ .nav-dd{flex-direction:column;align-items:flex-start;width:100%}
+ .nav-dd>a::after{display:none}
+ .nav-menu{position:static;display:flex;box-shadow:none;border:0;padding:2px 0 6px 16px;min-width:0}
+ .nav-menu a{color:var(--royal)!important;font-size:14px;padding:8px 4px}
+}
+
+/* Spider Bites archive */
+.sb-list{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.sb-item{display:flex;flex-direction:column;gap:6px;background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--red);border-radius:var(--rad);padding:22px 24px;box-shadow:0 8px 22px rgba(20,26,60,.07);transition:box-shadow .2s,transform .2s}
+.sb-item:hover{box-shadow:0 14px 30px rgba(20,26,60,.14);transform:translateY(-2px)}
+.sb-month{font-family:var(--body);font-weight:700;text-transform:uppercase;letter-spacing:.09em;font-size:11px;color:var(--red)}
+.sb-title{font-family:var(--display);text-transform:uppercase;font-size:20px;color:var(--ink)}
+.sb-read{font-family:var(--body);font-weight:700;font-size:13.5px;color:var(--royal);margin-top:2px}
+@media(max-width:620px){.sb-list{grid-template-columns:1fr}}
